@@ -1,0 +1,41 @@
+[3/29/20, 1:27 PM]|Scout|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1054: Unknown column 'scoutID' in 'where clause'>
+[3/29/20, 1:31 PM]|Scout|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1054: Unknown column 'scoutID' in 'where clause'>
+[3/29/20, 1:31 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 1:37 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 1:45 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 1:48 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 1:52 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 1:55 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 2:05 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 2:12 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 2:13 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 2:31 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 2:33 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 2:36 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 2:37 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 2:44 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[3/29/20, 2:46 PM]|Scout|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '0' for key 'PRIMARY'>
+[4/3/20, 4:13 PM]|Scout|getSchemaInfo|Error|NOTAG|null<SQL Exception: 0: Communications link failure
+
+Last packet sent to the server was 7 ms ago.>
+[4/8/20, 4:40 PM]|ScoutCollection|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Scout' WHERE FirstName LIKE 'null' OR LastName LIKE 'null' OR Email LIKE 'null'' at line 1>
+[4/8/20, 4:42 PM]|ScoutCollection|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Scout' WHERE FirstName LIKE 'null' OR LastName LIKE 'null' OR Email LIKE 'null'' at line 1>
+[4/8/20, 4:43 PM]|ScoutCollection|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Scout' WHERE FirstName LIKE 'null' OR LastName LIKE 'null' OR Email LIKE 'null'' at line 1>
+[4/8/20, 4:45 PM]|ScoutCollection|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Scout' WHERE FirstName LIKE 'null' OR LastName LIKE 'null' OR Email LIKE 'null'' at line 1>
+[4/8/20, 4:53 PM]|ScoutCollection|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Scout' WHERE FirstName LIKE 'E' OR LastName LIKE 'W' OR Email LIKE 'e'' at line 1>
+[4/8/20, 4:56 PM]|ScoutCollection|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"Scout" WHERE FirstName LIKE "E" OR LastName LIKE "W" OR Email LIKE "e"' at line 1>
+[4/8/20, 4:56 PM]|ScoutCollection|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"Scout" WHERE FirstName LIKE "E" OR LastName LIKE "W" OR Email LIKE "e"' at line 1>
+[4/8/20, 4:58 PM]|ScoutCollection|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Scout' WHERE FirstName LIKE 'E' OR LastName LIKE 'W' OR Email LIKE 'e'' at line 1>
+[4/13/20, 5:40 PM]|ScoutCollection|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LastName LIKE '%Proc%'' at line 1>
+[4/22/20, 6:24 PM]|Tree|insertPersistentState|Error|NOTAG|null<SQL Exception: 1452: Cannot add or update a child row: a foreign key constraint fails (`spr20_csc429_ewhit6`.`Tree`, CONSTRAINT `Tree_ibfk_1` FOREIGN KEY (`TreeType`) REFERENCES `TreeType` (`ID`))>
+[4/22/20, 6:52 PM]|Tree|insertPersistentState|Error|NOTAG|null<SQL Exception: 1452: Cannot add or update a child row: a foreign key constraint fails (`spr20_csc429_ewhit6`.`Tree`, CONSTRAINT `Tree_ibfk_1` FOREIGN KEY (`TreeType`) REFERENCES `TreeType` (`ID`))>
+[4/24/20, 4:25 PM]|Tree|insertPersistentState|Error|NOTAG|null<SQL Exception: 1452: Cannot add or update a child row: a foreign key constraint fails (`spr20_csc429_ewhit6`.`Tree`, CONSTRAINT `Tree_ibfk_1` FOREIGN KEY (`TreeType`) REFERENCES `TreeType` (`ID`))>
+[4/24/20, 4:26 PM]|Tree|insertPersistentState|Error|NOTAG|null<SQL Exception: 1452: Cannot add or update a child row: a foreign key constraint fails (`spr20_csc429_ewhit6`.`Tree`, CONSTRAINT `Tree_ibfk_1` FOREIGN KEY (`TreeType`) REFERENCES `TreeType` (`ID`))>
+[4/24/20, 4:45 PM]|Tree|insertPersistentState|Error|NOTAG|null<SQL Exception: 1452: Cannot add or update a child row: a foreign key constraint fails (`spr20_csc429_ewhit6`.`Tree`, CONSTRAINT `Tree_ibfk_1` FOREIGN KEY (`TreeType`) REFERENCES `TreeType` (`ID`))>
+[4/24/20, 4:47 PM]|Tree|insertPersistentState|Error|NOTAG|null<SQL Exception: 1452: Cannot add or update a child row: a foreign key constraint fails (`spr20_csc429_ewhit6`.`Tree`, CONSTRAINT `Tree_ibfk_1` FOREIGN KEY (`TreeType`) REFERENCES `TreeType` (`ID`))>
+[4/29/20, 9:50 PM]|TreeType|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '00' for key 'BarcodePrefix'>
+[5/6/20, 1:42 PM]|Tree|insertPersistentState|Error|NOTAG|null<SQL Exception: 1452: Cannot add or update a child row: a foreign key constraint fails (`spr20_csc429_ewhit6`.`Tree`, CONSTRAINT `Tree_ibfk_1` FOREIGN KEY (`TreeType`) REFERENCES `TreeType` (`BarcodePrefix`))>
+[5/11/20, 3:06 PM]|Tree|getSelectQueryResult|Error|NOTAG|null<SQL Exception: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1>
+[5/12/20, 11:10 AM]|TreeType|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '69' for key 'BarcodePrefix'>
+[5/12/20, 11:11 AM]|TreeType|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '69' for key 'BarcodePrefix'>
+[5/12/20, 11:22 AM]|TreeType|insertAutoIncrementalPersistentState|Error|NOTAG|null<SQL Exception: 1062: Duplicate entry '69' for key 'BarcodePrefix'>
